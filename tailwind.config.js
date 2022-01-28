@@ -1,7 +1,13 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        green: {
+          DEFAULT: '#00f260'
+        }
+      }
+    },
     fontFamily: {
       kaushan: ["Kaushan Script"],
     },
